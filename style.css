@@ -14,18 +14,24 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .about{
     width: 50%;
     padding-left: 6%;
 }
+.about h3{
+    font-size: 30px;
+}
 .about p{
     color: dimgray;
     line-height:20px ;
+    font-size: 19px;
 }
 .image img{
-    width: 80%;
-    margin-left: 50px;
+    width: 75%;
+    margin-left: 100px;
+
 }
 .hireme{
     text-decoration: none;
@@ -38,4 +44,33 @@ section{
 .topban{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.banermiddle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-position-y: 210px; 
+}
+.dream{
+    font-size: 50px;
+}
+.become{
+    font-size: 25px;
+}
+.img{
+    width: 53%;
+    padding-left: 3%;
+}
+.img img{
+    width: 75%;
+    padding: 5%;
+}
+.web{
+    width: 47%;
+}
+.web p{
+    margin-right: 118px;
+    line-height: 25px;
+    color: #696969;
+    font-size: 18px;
 }
