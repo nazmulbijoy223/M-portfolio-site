@@ -3,6 +3,12 @@ body{
     padding: 0;
     font-family: 'Cairo', sans-serif;
 }
+.h1{
+    font-size: 50px;
+}
+.h11{
+    font-size: 40px;
+}
 .name{
     color: #FBA500;
 }
@@ -11,10 +17,15 @@ section{
 }
 .about{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 6%;
+}
+.about p{
+    color: dimgray;
+    line-height:20px ;
 }
 .image img{
     width: 80%;
+    margin-left: 50px;
 }
 .hireme{
     text-decoration: none;
