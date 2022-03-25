@@ -12,7 +12,7 @@ body{
 .name{
     color: #FBA500;
 }
-section{
+.section{
     display: flex;
     margin-bottom: 100px;
 }
@@ -73,4 +73,29 @@ section{
     line-height: 25px;
     color: #696969;
     font-size: 18px;
+}
+.exarea .hh1{
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+.ex1, .ex2{
+    width: 45%;
+    margin-left: 6%;
+    margin-right: 3%;
+    box-shadow:10px 10px 40px gray ;
+    padding-left: 10px;
+}
+.ex1 h1,.ex2 h1{
+    font-size: 40px;
+}
+.ex1 p,.ex2 p{
+    font-size: 20px;
+    line-height: 25px;
+    color: dimgray;
+}
+.exarea{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
