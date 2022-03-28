@@ -175,8 +175,21 @@
     background-position-y: 0px;
     margin-bottom: 5%;
   }
+  .exarea{
+    background-position-y:60% ;
+  }
   .exarea .hh1 {
     font-size: 35px;
+  }
+
+  .another{
+    display: block;
+  }
+  .ex1,.ex2{
+    width: 75%;
+  }
+  .ex1 h1, .ex2 h1 {
+    font-size: 32px;
   }
 
 
