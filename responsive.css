@@ -203,10 +203,10 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  .topban{
+  .topban .another{
     margin-bottom: 10%;
   }
-  .topban .about,.topban .image{
+  .topban .about,.topban .image,.web{
     width: 50%;
   }
   .h1{
@@ -230,6 +230,64 @@
     width: 80%;
     margin-left: 0%;
     margin-top: 15%;
+  }
+  .img {
+    width: 50%;
+    padding-left: 0%;
+    height: 200px;
+  }
+  .img img {
+    width: 85%;
+    padding: 3%;
+  }
+  .dream {
+    font-size: 32px;
+  }
+  .become {
+    font-size: 20px;
+  }
+  .web p {
+    width: 190%;
+    margin-left: -95%;
+    text-align: justify;
+    margin-top: 20%;
+  }
+  .banermiddle{
+    background-position-y: 50px;
+  }
+  .hireme2{
+    margin-left: -50%;
+  }
+  .banermiddle{
+    margin-bottom: 50px;
+  }
+  .exarea .hh1 {
+    font-size: 35px;
+    margin-left: 15px;
+  }
+
+  .exarea {
+    background-position-y: 57%;
+  }
+  .exarea .hh1 {
+    font-size: 35px;
+  }
+
+  .another{
+    display: block;
+  }
+  .ex1,.ex2{
+    width: 70%;
+  }
+  .ex1 h1, .ex2 h1 {
+    font-size: 20px;
+  }
+  .ex1 h2,.ex2 h2{
+    font-size: 18px;
+  }
+  .ex1 p, .ex2 p {
+    font-size: 15px;
+    line-height: 22px;
   }
 
   }
